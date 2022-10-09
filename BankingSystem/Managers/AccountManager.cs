@@ -7,7 +7,7 @@ namespace BankingSystem.Managers;
 public class AccountManager : IAccountManager
 {
     private readonly BankingSystemContext _context;
-    private readonly ILogger<AccountManager> _logger; // Todo: check where logs are located
+    private readonly ILogger<AccountManager> _logger;
 
     public AccountManager(
         BankingSystemContext context,

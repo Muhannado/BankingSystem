@@ -8,7 +8,7 @@ namespace BankingSystem.Managers;
 public class UsersManager : IUsersManager
 {
     private readonly BankingSystemContext _context;
-    private readonly ILogger<UsersManager> _logger; // Todo: check where logs are located
+    private readonly ILogger<UsersManager> _logger;
 
     public UsersManager(
         BankingSystemContext context,
